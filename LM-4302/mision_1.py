@@ -8,6 +8,6 @@ sala_prueba = 'salaDePrueba'
 room_id = spark_get_room_id(token_bot, sala_prueba)
 #print('El room id es: ' + room_id)
 #spark_send_message(token_bot, room_id, 'Prueba de bot')
-my_query = {'email': 'gmonne@conatel.com.uy'}
+my_query = {'email': 'ialmandos@conatel.com.uy'}
 my_request = requests.get('https://api.ciscospark.com/v1/people', params=my_query, headers=_headers(token))
 print(my_request.json())
